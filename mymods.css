@@ -1,0 +1,51 @@
+/* Space out content a bit */
+body {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+/* Customize container width */
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+  margin-left:0px;
+  margin-right:0px;
+  padding-left:10px;
+  padding-right:10px;
+}
+
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  color:#000;
+  padding-bottom: 5px;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+}
+
+/* My elements */
+.section {
+  margin-top:20px;
+  padding-left:10px;
+  padding-right:10px;
+}
+
+.publication {
+  padding: 5px;
+  padding-bottom:0px;
+  margin-bottom: 5px;
+}
+
+/* Custom page footer */
+.footer {
+  margin-top: 10px;
+  padding-top: 5px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
